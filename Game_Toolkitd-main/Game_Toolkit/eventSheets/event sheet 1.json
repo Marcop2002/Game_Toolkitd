@@ -344,6 +344,27 @@
 				}
 			],
 			"sid": 922628187772935
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Player",
+					"sid": 617938053969241,
+					"parameters": {
+						"object": "Sword"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Sword",
+					"sid": 200316965484647
+				}
+			],
+			"sid": 474231040936658
 		}
 	],
 	"sid": 789898715502506
