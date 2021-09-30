@@ -1,0 +1,48 @@
+{
+	"name": "Wall2",
+	"plugin-id": "Sprite",
+	"sid": 844698769172126,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 642733199295814
+		},
+		{
+			"behaviorId": "shadowcaster",
+			"name": "ShadowCaster",
+			"sid": 400106466793157
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 250,
+						"height": 250,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 7764908,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 230202900816635,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}
